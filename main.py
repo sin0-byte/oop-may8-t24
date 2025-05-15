@@ -31,16 +31,16 @@ class Tap:
 class Tech(Tap):
     progress = 5
 
-tap1 = Tap("Ck", "Smith", 0)
+tap1 = Tap("Bob", "Tim", 0)
 print(tap1)
 print(tap1.full_name())
 print(tap1.first)
-tap1.first = "Charlie"
+tap1.first = "Jimbo"
 print(tap1.first)
 tap1.set_dep("IT")
 print(tap1.get_dep())
 print(len(tap1))
 print(str(tap1))
 
-tap2 = Tech("Ann", "Wanda", 3)
+tap2 = Tech("john", "bobby", 3)
 print(str(tap2))
